@@ -6,7 +6,6 @@
 
 /frontend/coverage
 .env
-/frontend/build
 
 /frontend/.DS_Store
 /frontend/.env.local

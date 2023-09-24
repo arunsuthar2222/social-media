@@ -3,13 +3,6 @@ const { connectDatabase } = require("./config/database");
 const cloudinary = require("cloudinary");
 const cors = require("cors")
 
-app.use(cors(
-  {
-      origin: ["https://deploy-mern-frontend.vercel.app"],
-      methods: ["POST", "GET"],
-      credentials: true
-  }
-));
 
 connectDatabase();
 
